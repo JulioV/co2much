@@ -1,0 +1,15 @@
+{
+  "name": "coserver",
+  "version": "1.0.0",
+  "description": "Server for co2 emissions",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julio V",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "request": "^2.67.0"
+  }
+}

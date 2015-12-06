@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+	 <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+	  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+	  <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+	  <script src="areasUK.js"></script>
+	  <script src="mapping.js"></script>
+	  <style type="text/css">
+	  	#map { height: 740px; }
+	  	#slider { width: 200px; display: inline-block;}
+	  	.info {
+		    padding: 6px 8px;
+		    font: 14px/16px Arial, Helvetica, sans-serif;
+		    background: white;
+		    background: rgba(255,255,255,0.8);
+		    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+		    border-radius: 5px;
+		}
+		.info h4 {
+		    margin: 0 0 5px;
+		    color: #777;
+		}
+
+		.legend {
+		    line-height: 18px;
+		    color: #555;
+		}
+		.legend i {
+		    width: 18px;
+		    height: 18px;
+		    float: left;
+		    margin-right: 8px;
+		    opacity: 0.7;
+		}
+	  </style>
+	<title>CO2 Visualiser</title>
+</head>
+<body>
+			<select id="maker" onchange="selectModel()">
+				<option value="dacia">DACIA</option>
+				<option value="toyota">TOYOTA</option>
+				<option value="seat">SEAT</option>
+				<option value="ford">FORD</option>
+				
+				<option value="jaguar">JAGUAR CARS</option>
+				<option value="mg motors uk">MG MOTORS UK</option>
+				<option value="jeep">CHRYSLER JEEP</option>
+				<option value="mercedes benz">MERCEDES BENZ</option>
+				<option value="mclaren">MCLAREN</option>
+				<option value="abarth">ABARTH</option>
+				<option value="ssangyong">SSANGYONG</option>
+				<option value="smart">SMART</option>
+				<option value="morgan motor company">MORGAN MOTOR COMPANY</option>
+				<option value="subaru">SUBARU</option>
+				<option value="skoda">SKODA</option>
+				<option value="audi">AUDI</option>
+				<option value="perodua">PERODUA</option>
+				<option value="bmw">BMW</option>
+				<option value="volkswagen">VOLKSWAGEN</option>
+				<option value="rolls royce">ROLLS ROYCE</option>
+				<option value="porsche">PORSCHE</option>
+				<option value="mini">MINI</option>
+				<option value="ferrari">FERRARI</option>
+				<option value="volkswagen">VOLKSWAGEN C V</option>
+				<option value="land rover">LAND ROVER</option>
+				
+				<option value="lexus">LEXUS</option>
+				<option value="renault">RENAULT</option>
+				<option value="lti">LTI</option>
+				<option value="kia">KIA</option>
+				<option value="vauxhall">VAUXHALL</option>
+				<option value="alfa romeo">ALFA ROMEO</option>
+				<option value="hyundai">HYUNDAI</option>
+				<option value="lotus">LOTUS</option>
+				<option value="honda">HONDA</option>
+				
+				<option value="mazda">MAZDA</option>
+				<option value="volvo">VOLVO</option>
+				<option value="aston martin">ASTON MARTIN LAGONDA</option>
+				<option value="fiat">FIAT</option>
+				<option value="feugeot">PEUGEOT</option>
+				<option value="chevrolet">CHEVROLET</option>
+				<option value="mitsubishi">MITSUBISHI</option>
+				<option value="citroen">CITROEN</option>
+				<option value="maserati">MASERATI</option>
+				<option value="corvette">CORVETTE</option>
+				<option value="nissan">NISSAN</option>
+				<option value="bentley motors">BENTLEY MOTORS</option>
+				<option value="infinit">INFINITI</option>
+				<option value="suzuki">SUZUKI</option>
+			</select> <b style="font-size:25px;">2008   </b><div id="slider"></div><b style="font-size:25px;">.  2013</b>
+	 <div id="map"></div>
+</body>
+</html>
