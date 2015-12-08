@@ -1,4 +1,5 @@
 # co2much
+### This is the code of an app submited to the GreatUniHack hackaton 2015. It received the prize for the best use of the CDL API.
 
 ## Inspiration
 After the recent climate change conference we wondered if we could get a rough estimation of car co2 emissions in the UK based on the real mileage of vehicles.
